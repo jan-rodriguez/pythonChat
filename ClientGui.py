@@ -1,5 +1,4 @@
-from Tkinter import Tk, BOTH
-from ttk import Frame, Button, Style
+from tkinter import *
 
 
 class ClientUI(Frame):
@@ -14,8 +13,6 @@ class ClientUI(Frame):
   def initUI(self):
 
     self.parent.title("Quit button")
-    self.style = Style()
-    self.style.theme_use("default")
 
     self.pack(fill=BOTH, expand=1)
 
